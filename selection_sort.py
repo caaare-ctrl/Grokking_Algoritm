@@ -14,7 +14,6 @@
 
 def selection_sort(unsort_list):
     sorted_list = []
-
     for i in range(len(unsort_list)):
         smallest_num = unsort_list[0]
         smallest_index = 0
