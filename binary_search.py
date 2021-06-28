@@ -17,6 +17,7 @@
 # Binary Search : O(log2n)
 # Simple Search : O(n)
 
+
 def binary_search(sorted_list,num):
     # start the search
     low = 0

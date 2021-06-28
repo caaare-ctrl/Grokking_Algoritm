@@ -1,0 +1,23 @@
+Big O Notation
+calculates the growth of the number of operations ,
+talk how about how quickly the run time of an algorithm increases as the size grows
+
+the worst case scenario
+
+O(log n) log time
+example: Binary Search
+
+O(n) Linear Time
+example: Simple Search
+
+O(n* log n) Fast Sorting Algorithm
+example: Quicksort
+
+O(n^2) A slow sorting algorithm
+example : Selection sort
+
+O(n!) Really Slow Algorithm
+example : travelling salesperson
+
+O(2^n) : Worst Case exponential growth
+

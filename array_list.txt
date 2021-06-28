@@ -1,11 +1,31 @@
  ARRAY AND LINKED LIST
 
  ARRAY (RANDOM ACCESS)
+Your items are stored contiguously , right next to each other in memory.
+Insert : You have to move another place to store the array if the next memory is ocuppied.
+
+You can tell the computer to leave 10 spaces for array, but cases may happen in the following:
+1) You end up do not need the 10 spaces. Memory is wasted.
+2) You may end up need over 10 spaces. You have to move the whole array to new place
+Linked List can solve this problem as the items in the linked list can be everywhere.
+
+Example: Top Five Movies
+
+For : Reading a particular element in array as we know all the addresses of every item
 
 
  LINKED LIST (SEQUESTIAL ACCESS)
+Each item store the addresses of next item in the list. A bunch of random memory addresses are linked together.
+You do not need to move your items and also you do not need to worry about the memory avaliable next to each other
+when inserting a bunch of items in linked list. If there is space in the memory , you will have spaces for linked list.
 
+Example:
 
+For : - Reading all the items one at a time
+      - Insert new item in the middle of list , just change the previous element points to
+      but you need to move the array to insert new item into the middle of array
+      - Deletion, Change the previous elements point to but array you need to move the array
+      Unlike insertion, you can always delete the item but insert the items you will need to have memory space.
 
  Big O Notation
          Array  List
@@ -13,5 +33,10 @@
  Insert | O(n) | O(1)
  Delete | O(n) | O(1)
 
+ Hybrid Of Array and Linked List
+ example :
+ Array (Alphabetical Order) > List (Username)
+       O(1)                       O(n)
 
- Hybrid of array and linked list example
+
+
